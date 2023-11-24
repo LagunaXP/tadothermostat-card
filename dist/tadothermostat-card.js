@@ -3658,15 +3658,15 @@ let TadothermostatCard = class TadothermostatCard extends LitElement {
         const target_temperature = this._getAttributeValueForKey('temperature');
         const min_temp = this._getAttributeValueForKey('min_temp');
         const hvac_action = this._getAttributeValueForKey('hvac_action');
-        let mode_text = 'No remote access', mode_class = 'disconnected', mode_icon = html `
+        let mode_text = 'Kein Gerätezugriff', mode_class = 'disconnected', mode_icon = html `
         ${this.svg_no_remote_access()}
       `;
         if (hvac_action == 'off') {
             if (min_temp == '5') {
-                mode_text = 'Frost protection';
+                mode_text = 'Frostschutz';
             }
             else {
-                mode_text = 'Turned Off';
+                mode_text = 'Aus';
             }
             mode_class = 'off';
             mode_icon = html `
@@ -3676,14 +3676,14 @@ let TadothermostatCard = class TadothermostatCard extends LitElement {
         if (hvac_action == 'heating') {
             let setpoint = 'setpoint-';
             setpoint = setpoint + target_temperature.toString().split('.')[0];
-            mode_text = `Heating to ${target_temperature}°`;
+            mode_text = `Heizt auf ${target_temperature}°`;
             mode_class = 'heating ' + setpoint;
             mode_icon = html ``;
         }
         if (hvac_action == 'idle') {
             let setpoint = 'setpoint-';
             setpoint = setpoint + target_temperature.toString().split('.')[0];
-            mode_text = `Set to ${target_temperature}°`;
+            mode_text = `Eingestellt auf ${target_temperature}°`;
             mode_class = 'idle ' + setpoint;
             mode_icon = html ``;
         }
