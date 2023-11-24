@@ -1,7 +1,6 @@
-# Tadothermostat Card by [@whatdaybob](https://www.github.com/whatdaybob)
+# Tadothermostat Card by [@LagunaXP](https://www.github.com/lagunaxp)
+Forged from [@whatdaybob](https://www.github.com/whatdaybob)
 
-![HACS Validate](https://github.com/whatdaybob/tadothermostat-card/workflows/HACS%20Validate/badge.svg)
-[![CodeFactor](https://www.codefactor.io/repository/github/whatdaybob/tadothermostat-card/badge/master)](https://www.codefactor.io/repository/github/whatdaybob/tadothermostat-card/overview/master)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 
 A custom lovelace card to emulate the visuals of the tado application for your Home-Assistant tado climate entities.
