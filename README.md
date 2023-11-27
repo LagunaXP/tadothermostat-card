@@ -1,5 +1,5 @@
 # Tadothermostat Card by [@LagunaXP](https://www.github.com/lagunaxp)
-Forged from [@whatdaybob](https://www.github.com/whatdaybob)
+Forked from [@whatdaybob](https://www.github.com/whatdaybob)
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 
